@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+            <!-- TITLE & AUTHOR STATEMENT-->
+                <title>The president is gone</title>
+                <author source="https://archive.org/details/@angel_ballesteros246">
+                    <choice>
+                        <orig>
+                            <persName>Angélica</persName>
+                        </orig>
+                        <reg>
+                            <addName>H34RTCORE</addName>
+                        </reg>
+                    </choice>
+                    <!--https://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONA -->
+                    <ref target="https://archive.org/details/@angel_ballesteros246">Internet Archive</ref>
+                </author>
+            </titleStmt>
+            
+            <editionStmt>
+            <!-- EDITION STATEMENT -->
+                <edition>TEI assignment 2</edition>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <!-- I tried to put the link to the github somewhere more fitting, but I did not find.  -->
+                    <persName ref="https://github.com/Anarchiviste/TEI-assignment2.git">
+                        <surname>Musquin</surname>
+                        <surname>Jules</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+            <!-- DISTRIBUTOR & AVAILABILITY STATEMENT-->    
+                <distributor>
+                    <persName ref="https://github.com/Anarchiviste/TEI-assignment2.git">
+                        <surname>Musquin</surname>
+                        <surname>Jules</surname>
+                    </persName>
+                    <date when="2025-11-09"></date>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <p>Attribution-NonCommercial-ShareAlike 4.0 International</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier source="https://archive.org/details/presgone-zine-online/page/n1/mode/2up">
+                        <repository>Internet Archive</repository>
+                        <idno>ark:/13960/s2xnb4wz60r</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <front>
+            
+        </front>
+        <body>
+            
+        </body>
+        <back>
+            
+        </back>
+    </text>
+</TEI>
