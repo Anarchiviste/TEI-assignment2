@@ -2,6 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
+<!DOCTYPE TEI [<!ENTITY List_Type SYSTEM 'List_type.xml'>]>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
     <teiHeader>
         <fileDesc>
@@ -59,11 +61,12 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        &List_Type;
     </teiHeader>
 
     <text>
         <front>
-            <div1 type="titlepage" n="1">
+            <div1 type="titlepage" n="1" rendition="#manuscript">
                 <head rend="purple ink, white paper">The president is Gone.</head>
                 <div2>
                     <p rend="black ink, white paper">And other notes from the future</p>
@@ -77,13 +80,13 @@
             </div1>
         </front>
         <body>
-            <div1 n="2">
-                <p rend="purple ink, white paper" >The president is gone.</p>
+            <div1 n="2" rendition="#manuscript">
+                <p rend="purple ink, white paper">The president is gone.</p>
                 <p rend="purple ink, white paper">And the vice president is gone too.</p>
                 <p rend="purple ink, white paper">We created a world where</p>
                 <p rend="purple ink, white paper"> we didn't need these false idols.</p>
             </div1>
-            <div1 n="3">
+            <div1 n="3" rendition="#manuscript">
                 <p rend="purple ink, white paper">The priest is gone. The missonaries are all gone too.</p>
                 <p rend="purple ink, white paper">We didn't need them telling us what to do.</p>
                 <p rend="purple ink, white paper">We decided to some thinking for ourselves.</p>
@@ -96,7 +99,7 @@
                 <p rend="purple ink, white paper">Got rid of all our bosses, we all quit our "jobs"</p>
                 <p rend="purple ink, white paper">and realized we could actually find our purpose...</p>
             </div1>
-            <div1 n="4">
+            <div1 n="4" rendition="#manuscript">
                 <p rend="purple ink, pink paper">We got rid of the Landlords ... it</p>
                 <p rend="purple ink, pink paper">wasn't there land to "lord" anyway ...</p>
                 <p rend="purple ink, pink paper">and we got rid of renters too.</p>
@@ -105,7 +108,7 @@
                 <p rend="purple ink, pink paper">People who get to experience our world</p>
                 <p rend="purple ink, pink paper">and not just fight to survive it.</p>
             </div1>
-            <div1 n="5">
+            <div1 n="5" rendition="#manuscript">
                 <p rend="purple ink, pink paper">So we got rid of the corporations. That's right.</p>
                 <p rend="purple ink, pink paper"> Now the CEOs are gone and the shareholders and investors and even the consumers are gone too.</p>
                 <p rend="purple ink, white paper">We got rid of them when</p>
@@ -119,7 +122,7 @@
                 <p rend="purple ink, white paper">Gifts ... Blessigngs ... not from any of us ... to all of us ...</p>
                 <p rend="purple ink, white paper">Gifts.</p>
             </div1>
-            <div1 n="6">
+            <div1 n="6" rendition="#manuscript">
                 <p rend="purple ink, white paper">So we got rid of the food prices and the "cost" of healthcare and</p>
                 <p rend="purple ink, white paper">decided to live in abundance. We stopped putting a price tag on life.</p>
                 <p rend="purple ink, white paper">So we got rid of the rich. And we got rid of the poor. We decided that we all could do more...</p>
@@ -130,7 +133,7 @@
                 <p rend="purple ink, white paper">The power of love ... creativity ...solidarity</p>
                 <p rend="purple ink, white paper">We nenver once surrendered.</p>
             </div1>
-            <div1 n="7">
+            <div1 n="7" rendition="#manuscript">
                 <p rend="purple ink, yellow paper">So now the hatred is gone. The silence and shame too.</p>
                 <p rend="purple ink, yellow paper">We got rid of them; we loved to hard !</p>
                 <p rend="purple ink, yellow paper">In the best way possible. We embodied our truths.</p>
@@ -139,7 +142,7 @@
                 <p rend="purple ink, yellow paper">We realized we have lots more fun when we all become learners, creators, participants in our reality and not mere predefined roles.</p>
                 <p rend="purple ink, yellow paper">And we were so successful ! We still are.</p>
             </div1>
-            <div1 n="8">
+            <div1 n="8" rendition="#manuscript">
                 <p rend="purple ink, white tissue">And now the violence is all gone,</p>
                 <p rend="purple ink, white tissue">and the tanks and guns are gone too.</p>
                 <p rend="purple ink, white tissue">The gas is gone, the bombs, the chemicals they dumped into the earth our home.</p>
@@ -148,10 +151,10 @@
                 <p rend="purple ink, white tissue">Chose life,</p>
                 <p rend="purple ink, white tissue">Chose love, chose connection instead of fear.</p>
             </div1>
-            <div1 n="9">
+            <div1 n="9" rendition="#manuscript">
                 <p rend="purple ink, blue surgical mask">We chose each other.And we still do. That's how we made it so far.</p>
             </div1>
-            <div1 n="10">
+            <div1 n="10" rendition="#manuscript">
                 <p rend="purple ink, yellow paper">But we looked beyond ourselves too and we chose the world, again as it is, gifts, glorious and abundant and we realized we had so much we were missing.</p>
                 <p rend="purple ink, yellow paper">So we don't have the scarcity the fear and coercion any more.</p>
                 <p rend="purple ink, yellow paper">No more extraction and expansion and exploitation - that's all gone. We embraced cycles and transitions, trangressions, transformations,</p>
@@ -159,7 +162,7 @@
             </div1>
         </body>
         <back>
-            <div1>
+            <div1 rendition="#manuscript">
                 <p rend="red pencil, white background">They may burn our books but we will still write more.</p>
                 <div2>
                     <p rend="pink ink, pink and white paper">share this zine :</p>
