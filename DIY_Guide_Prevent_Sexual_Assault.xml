@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!DOCTYPE TEI [<!ENTITY List_Type SYSTEM 'List_type.xml'>]>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITLE & AUTHOR STATEMENT-->
+                <!-- In this case anonymous -->
+                <title>DIY guide to preventing sexual assault</title>
+                <author>anonymous</author>
+            </titleStmt>
+
+            <editionStmt>
+                <!-- EDITION STATEMENT -->
+                <edition>TEI assignment 2</edition>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <!-- I tried to put the link to the github somewhere more fitting, but I did not find.  -->
+                    <persName ref="https://github.com/Anarchiviste/TEI-assignment2.git">
+                        <surname>Musquin</surname>
+                        <surname>Jules</surname>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <!-- DISTRIBUTOR & AVAILABILITY STATEMENT-->
+                <distributor>
+                    <persName ref="https://github.com/Anarchiviste/TEI-assignment2.git">
+                        <surname>Musquin</surname>
+                        <surname>Jules</surname>
+                    </persName>
+                    <date when="2025-11-13"/>
+                </distributor>
+                <availability>
+                    <licence>
+                        <p>Free. Copy and distribute at will !</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier
+                        source="https://archive.org/details/DiyGuideToPreventingSexualAssault/mode/2up">
+                        <repository>Internet Archive</repository>
+                        <idno>ark:/13960/t75t76r2h </idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        &List_Type;
+    </teiHeader>
+
+    <text>
+        <front>
+            <div1 type="titlepage" n="1" rendition="#printed">
+                <head rend="black_ink white_background">A d.i.y guide to preventing sexual
+                    assault</head>
+                <div2>
+                    <figure>
+                        <figDesc>A black and white printed picture with a groupe of 6 young
+                            peoples</figDesc>
+                    </figure>
+                </div2>
+                <trailer rend="black_ink white_background">Free. Copy and distribute at
+                    will!</trailer>
+            </div1>
+        </front>
+        <body>
+            <div1 n="2">
+                <p rendition="#printed" rend="black_ink white_background">"Once a girl knows I'm
+                    going to listen to a no, she knows I'm going to listen a yes, too. That yes is a
+                    really nice thing to hear when she means it. Not just about sex...About
+                    anything."</p>
+                <div2>
+                    <figure>
+                        <figDesc>A black and white printed picture of a young man</figDesc>
+                    </figure>
+                </div2>
+                <trailer rendition="#manuscript" rend="black_ink white_background"> It is up to each
+                    of us to prevent sexual assault in our community</trailer>
+            </div1>
+            <div1 rendition="#manuscript" rend="black_ink white_background">
+                <head>Help a survivor</head>
+                <list>
+                    <item>Believe what your friend is telling you.</item>
+                    <item>Dont pressure or force them to do anything. They need to feel they are in
+                        charge of decisions.</item>
+                    <item>Tell your friend that the rape is NOT their fault. Do not blame your
+                        friend for what happened.</item>
+                    <item>Don't question their behavior or reasons.</item>
+                    <item>Ask them how you can help, ask them what they want.</item>
+                    <item>Encourage them to go to a hospital to get a rape kit done.</item>
+                    <item>Rape is a crime, encourage them to report it.</item>
+                    <item>Encourage them to think about talking to a counselor.</item>
+                    <item>Support your friends. Listen to their story and their needs. Don't be
+                        judgmental.</item>
+                </list>
+                <trailer>The <orgName>RAPE, ABUS &amp; INCEST NATIONAL NETWORK</orgName> hotline can
+                    redirect you to a local crisis center. <address>
+                        <idno>1-800-656-HOPE</idno>
+                    </address> Make your community aware of the resources in your area. </trailer>
+            </div1>
+        </body>
+        <back>
+            <div1 rendition="#printed" rend="black_ink white_background">
+                <head>What to do if... you or a friend are sexually assaulted</head>
+                <list>
+                    <item>Go to a safe place. With people you feel comfortable with.</item>
+                    <item>Go to a hospital right away for a rape kit; DO NOT bathe, douche, shower,
+                        or change clothes before hospital visit. Cleaning, although that may be your
+                        first instinct, will destroy evidence that could be used if you decide to
+                        prosecute the offender.</item>
+                    <item>Talk to a legal advocate to decide whether or not you should file a
+                        report.</item>
+                    <item>Utilize the resources in your community to help you cope with the
+                        assault.</item>
+                    <item>Remember ! The rapist is entirely responsible for a rape. A survivor is
+                        never at fault or to blame, regardless of the situation.</item>
+                    <item>If your friend has been assaulted, stand by them, listen and do anything
+                        you can to help.</item>
+                </list>
+            </div1>
+            <div1 rendition="#manuscript" rend="black_ink white_background">
+                <p>Spread equality !</p>
+                <figure>
+                    <figDesc>An A for anarchist, written in Gothic script, surrounded by a
+                        heart</figDesc>
+                </figure>
+            </div1>
+        </back>
+    </text>
+</TEI>
