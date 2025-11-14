@@ -127,10 +127,12 @@
             </div1>
             <div1 rendition="#manuscript" rend="black_ink white_background">
                 <p>Spread equality !</p>
-                <figure>
-                    <figDesc>An A for anarchist, written in Gothic script, surrounded by a
-                        heart</figDesc>
-                </figure>
+                <div2>
+                    <figure>
+                        <figDesc>An A for anarchist, written in Gothic script, surrounded by a
+                            heart</figDesc>
+                    </figure>
+                </div2>
             </div1>
         </back>
     </text>
