@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!DOCTYPE TEI [<!ENTITY List_Type SYSTEM 'List_type.xml'>]>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Why zines work</title>
+                <!-- It is harde to know where to put links to sources -->
+                <author source="https://www.tumblr.com/ladyfingerpress">
+                    <choice>
+                        <orig>
+                            <persName>
+                                <surname>Stern</surname>
+                                <forename>Morgan</forename>
+                            </persName>
+                        </orig>
+                        <reg>
+                            <addName>Ladyfinger Press</addName>
+                        </reg>
+                    </choice>
+                </author>
+            </titleStmt>
+
+            <editionStmt>
+                <!-- EDITION STATEMENT -->
+                <edition>TEI assignment 2</edition>
+                <respStmt>
+                    <resp>encoded by</resp>
+                    <persName ref="https://github.com/Anarchiviste/TEI-assignment2.git">
+                        <surname>Musquin</surname>
+                        <forename>Jules</forename>
+                    </persName>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <distributor>
+                    <persName ref="https://github.com/Anarchiviste/TEI-assignment2.git">
+                        <surname>Musquin</surname>
+                        <forename>Jules</forename>
+                    </persName>
+                    <date when="2025-11-15"/>
+                </distributor>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <p>Attribution-NonCommercial-ShareAlike 4.0 International</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier
+                        source="https://archive.org/details/presgone-zine-online/page/n1/mode/2up">
+                        <repository>Internet Archive</repository>
+                        <idno>ark:/13960/s2cgrnk02qs</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        &List_Type;
+    </teiHeader>
+
+    <text rend="black_ink yellow_paper">
+        <front>
+            <div1 type="titlepage" n="1" rendition="#printed">
+                <!-- I do not know why head must be the first thing in the div1 element, 
+                    but it is not how it is on my original document,
+                    and I did not find a solution. -->
+                <head>Why zines work</head>
+                <div2>
+                    <p>Ladyfinger #90</p>
+                </div2>
+                <div2>
+                    <figure>
+                        <figDesc>A printed version of a plan of a Vauban fortress with the letter Z
+                            and the number 7 inscribed inside.</figDesc>
+                    </figure>
+                </div2>
+                <docAuthor>
+                    <persName>
+                        <surname>Stern</surname>
+                        <forename>Morgan</forename>
+                    </persName>
+                </docAuthor>
+            </div1>
+        </front>
+        <body>
+            <div1 n="2" rendition="#printed">
+                <head>Why zines work</head>
+                <list>
+                    <item>
+                        <hi>What is a zine ?</hi>
+                        <p>A zine is a booklet made by a transgender anarchist who doesn't have any
+                            other options. The Zine is a format that's good at containing
+                            information. A zine is a unit, a thing, a piece of information. A zine
+                            is, specifically, a <hi>chunk</hi> of information. It is made of + 7
+                            smaller chunks of information.</p>
+                        <p>A page folded thrice makes for eight portions; six smaller pages and
+                            cover : this is the classic format.</p>
+                    </item>
+                </list>
+            </div1>
+            <div1 n="2" rendition="#printed">
+                <list>
+                    <item><hi>WHen Doesn't it Work ?</hi>
+                        <p>My last issue was a moment's musing about pet play. People liked it! My
+                            previous was about a much more interesting topic I've been researching
+                            for a long time, and nobody cared. *<anchor xml:id="footnote1"/></p>
+                        <p>Why did one work, and the other didn't ? I think it was the format. I
+                            broke the format with the flop : it was a double issue. Double was too
+                            much ! Even I got bored in the middle. I should have listened to Miller
+                            and his famous laws.</p>
+                    </item>
+                </list>
+                <trailer>
+                    * <ptr target="#footnote1"/> <objectName>#89 Puppygirl &amp; Philosopher</objectName> &amp; <objectName>#87 Synagogue Zodiac Mosaic</objectName>
+                </trailer>
+            </div1>
+        </body>
+    </text>
+</TEI>

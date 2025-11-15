@@ -22,7 +22,7 @@
                     <!-- I tried to put the link to the github somewhere more fitting, but I did not find.  -->
                     <persName ref="https://github.com/Anarchiviste/TEI-assignment2.git">
                         <surname>Musquin</surname>
-                        <surname>Jules</surname>
+                        <forename>Jules</forename>
                     </persName>
                 </respStmt>
             </editionStmt>
@@ -32,7 +32,7 @@
                 <distributor>
                     <persName ref="https://github.com/Anarchiviste/TEI-assignment2.git">
                         <surname>Musquin</surname>
-                        <surname>Jules</surname>
+                        <forename>Jules</forename>
                     </persName>
                     <date when="2025-11-13"/>
                 </distributor>
