@@ -68,17 +68,20 @@
 
     <text>
         <front>
-            <div1 type="titlepage" n="1" rendition="#manuscript">
-                <head rend="purple_ink white_paper">The president is Gone.</head>
-                <div2>
-                    <p rend="black ink white_paper">And other notes from the future</p>
-                </div2>
+            <titlePage type="titlepage" n="1" rendition="#manuscript">
+                <docTitle>
+                    <titlePart type="main" rend="purple_ink white_paper" rendition="#manuscript">The
+                        president is Gone</titlePart>
+                    <titlePart type="sub" rend="black ink white_paper" rendition="#manuscript">And
+                        other notes from the future</titlePart>
+                </docTitle>
                 <docAuthor rend="black ink white_paper">
                     <persName>Angélica</persName>
                 </docAuthor>
-                <docDate rend="black ink white_paper"> 2023 </docDate>
-            </div1>
+                <docDate rend="black ink white_paper">2023</docDate>
+            </titlePage>
         </front>
+
         <body>
             <div1 n="2" rendition="#manuscript">
                 <p rend="purple_ink white_paper">The president is gone.</p>

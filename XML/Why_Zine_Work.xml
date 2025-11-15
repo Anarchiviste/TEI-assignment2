@@ -65,39 +65,42 @@
     </teiHeader>
 
     <text rend="black_ink yellow_paper">
+        <!-- There is no variation in writing and background in this Zine, 
+            so I used my rend attribute only one time on the text element -->
         <front>
-            <div1 type="titlepage" n="1" rendition="#printed">
-                <!-- I do not know why head must be the first thing in the div1 element, 
-                    but it is not how it is on my original document,
-                    and I did not find a solution. -->
-                <head>Why zines work</head>
-                <div2>
-                    <p>Ladyfinger #90</p>
-                </div2>
-                <div2>
-                    <figure>
-                        <figDesc>A printed version of a plan of a Vauban fortress with the letter Z
-                            and the number 7 inscribed inside.</figDesc>
-                    </figure>
-                </div2>
+            <titlePage type="titlepage" n="1" rendition="#printed">
+                <docTitle>
+                    <titlePart type="main">Why zines work</titlePart>
+                </docTitle>
+
+                <docAuthor>
+                    <persName><addName>Ladyfinger</addName></persName>
+                </docAuthor>
+                <docEdition>#90</docEdition>
+
+                <figure>
+                    <figDesc>A printed version of a plan of a Vauban fortress with the letter Z and
+                        the number 7 inscribed inside.</figDesc>
+                </figure>
+
                 <docAuthor>
                     <persName>
                         <surname>Stern</surname>
                         <forename>Morgan</forename>
                     </persName>
                 </docAuthor>
-            </div1>
+            </titlePage>
         </front>
         <body>
             <div1 n="2" rendition="#printed">
                 <head>Why zines work</head>
                 <list>
                     <item>
-                        <hi>What is a zine ?</hi>
+                        <emph>What is a zine ?</emph>
                         <p>A zine is a booklet made by a transgender anarchist who doesn't have any
                             other options. The Zine is a format that's good at containing
                             information. A zine is a unit, a thing, a piece of information. A zine
-                            is, specifically, a <hi>chunk</hi> of information. It is made of + 7
+                            is, specifically, a <emph>chunk</emph> of information. It is made of + 7
                             smaller chunks of information.</p>
                         <p>A page folded thrice makes for eight portions; six smaller pages and
                             cover : this is the classic format.</p>
@@ -106,7 +109,7 @@
             </div1>
             <div1 n="2" rendition="#printed">
                 <list>
-                    <item><hi>WHen Doesn't it Work ?</hi>
+                    <item><emph>WHen Doesn't it Work ?</emph>
                         <p>My last issue was a moment's musing about pet play. People liked it! My
                             previous was about a much more interesting topic I've been researching
                             for a long time, and nobody cared. *<anchor xml:id="footnote1"/></p>
@@ -116,10 +119,110 @@
                             and his famous laws.</p>
                     </item>
                 </list>
-                <trailer>
-                    * <ptr target="#footnote1"/> <objectName>#89 Puppygirl &amp; Philosopher</objectName> &amp; <objectName>#87 Synagogue Zodiac Mosaic</objectName>
+                <trailer> * <ptr target="#footnote1"/>
+                    <objectName>#89 Puppygirl &amp; Philosopher</objectName> &amp; <objectName>#87
+                        Synagogue Zodiac Mosaic</objectName>
+                    <!-- I improvised something to link footnotes and their place in the text-->
                 </trailer>
             </div1>
+            <div1 n="3" rendition="#printed">
+                <list>
+                    <item>
+                        <emph>The Law of Exactly Sevenish</emph>
+                        <p>Seven has been a number of magical and cosmic signifiance for all of
+                            human history. Especially 1956. That's when
+                                    <persName><forename>George</forename>
+                                <surname>Miller</surname></persName> wrote <emph><objectName>The
+                                    Magical Number 7, +2</objectName></emph>. The paper exemplains
+                            why you can remmber a telephone number but not a credit card number.</p>
+                        <p>I think <persName><surname>Miller</surname></persName>'s Law is about
+                            more than just human short<caesura/>term memory. What if it applies not
+                            to just our brains, but information itself ? What if it's part of a
+                                <emph>general information theory</emph> that we don't have yet
+                            ?Regardless, it applies to zines.</p>
+                    </item>
+                </list>
+            </div1>
+            <div1 n="4" rendition="#printed">
+                <list>
+                    <item><emph>The Theory of Memes</emph>
+                        <p>Before it was rare Soyjaks, <emph>the meme was a serious theory by
+                                        <persName><surname>Dawkins</surname></persName> '76. He
+                                named memetics following genetics, including select<caesura/>tion.
+                                But his evolutionary metaphor didn't even apply to evolution. Don't
+                                get me wrong, I like his theory (and evolution.) But
+                                        <persName><surname>Dawkins</surname></persName> called a
+                                meme a unit of culture. Sounds squishy, doesn't it ? Let's call it
+                                instead <emph>a chunk of information.</emph> Even better, a
+                                    <emph>mirrorable</emph> chunk of information : one that can be
+                                easily repeated. </emph>.</p>
+                    </item>
+                </list>
+                <trailer>For us, by Xerox.</trailer>
+            </div1>
+            <div1 n="5" rendition="#printed">
+                <list>
+                    <item><emph>The Mirroring Section</emph>
+                        <p>I guess that makes this the mirroring section. The mirroring Section. You
+                            may have heard of <emph>mirror neurons</emph>
+                            <caesura/> they're a useful discovery that's become something of a meme
+                            !</p>This is the <emph>monkey see; do</emph> network in your brain. It
+                        means that the Xerox in our brain is essential to learning and being : we
+                        copy, we become. Likewise inform<caesura/>ation copies and becomes.<p/>
+                    </item>
+                </list>
+                <trailer>So what does the mirror network mirror, anyway ? ... "Phenomena ?" I think
+                    it deals in chunks.</trailer>
+            </div1>
+            <div1 n="6" rendition="#printed">
+                <list>
+                    <item><emph>Shrink To Grow</emph>
+                        <p>Notice that you don't have to read
+                                <persName><surname>Miller</surname></persName>
+                            <persName><surname>Dawkins</surname></persName> and ... uh,
+                                    <persName><surname>Rizzolatti</surname></persName> to follow me.
+                            That's because their books compress into my mini-page chunks. The
+                            behavior of the chunkd is what mattered to
+                                    <persName><surname>Miller</surname></persName>, not the number.
+                            They <emph>compress, nest, and scale.</emph></p>
+                        <p>Scaling means that the <emph>riot <choice>
+                                    <orig>grrl</orig>
+                                    <corr>girl</corr>
+                                </choice></emph> concept can go from zine idea to cultural Thing. If
+                            copied and shared, the information you're reading could
+                            compress-nest-scale, too. It would no longer be 6 chunks about
+                                        <emph><persName><surname>Miller</surname></persName>,
+                                mirroring, and memetics.</emph> It would become one idea, a Zine
+                            Theory, told in one word: <emph>zinetics.</emph></p>
+                    </item>
+                </list>
+            </div1>
         </body>
+        <back n="7" rendition="#printed">
+            <docDate>Z_LXXXX</docDate>
+            <docDate>10Aug2025</docDate>
+            <docAuthor>
+                <persName>
+                    <forename>Morgan</forename>
+                    <surname>Stern</surname>
+                </persName>
+            </docAuthor>
+            <head>THE FORMAT (that functions)</head>
+            <list>
+                <item>I. A zine is one page with zevenish parts.</item>
+                <item>II. A zine is black and white.</item>
+                <item>III. A zine is cheap or free.</item>
+                <item>IV. A zine photocopies easily.</item>
+            </list>
+            <head>THE FILLING (that fucks)</head>
+            <list>
+                <item>A zine does not sell cheeseburgers.</item>
+                <item>A zine is small, below and against.</item>
+            </list>
+            <div1 rendition="#printed" rend="black_ink white_background">
+                <p>morganstern.33 on <orgName>Signal</orgName></p>
+                <p source="ladyfingerpress.tumbler.com">ladyfingerpress.tumbler.com</p>
+            </div1>
+        </back>
     </text>
 </TEI>

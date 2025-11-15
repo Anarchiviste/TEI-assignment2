@@ -57,18 +57,17 @@
 
     <text>
         <front>
-            <div1 type="titlepage" n="1" rendition="#printed">
-                <head rend="black_ink white_background">A d.i.y guide to preventing sexual
-                    assault</head>
-                <div2>
-                    <figure>
-                        <figDesc>A black and white printed picture with a groupe of 6 young
-                            peoples</figDesc>
-                    </figure>
-                </div2>
-                <trailer rend="black_ink white_background">Free. Copy and distribute at
-                    will!</trailer>
-            </div1>
+            <titlePage type="titlepage" n="1" rendition="#printed">
+                <docTitle rend="black_ink white_background">
+                    <titlePart type="main">A d.i.y guide to preventing sexual assault</titlePart>
+                </docTitle>
+
+                <figure>
+                    <figDesc>A black and white printed picture with a groupe of 6 young
+                        peoples</figDesc>
+                </figure>
+                <imprimatur>Free. Copy and distribute at will!</imprimatur>
+            </titlePage>
         </front>
         <body>
             <div1 n="2">
