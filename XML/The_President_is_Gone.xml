@@ -63,6 +63,8 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
+        <!-- I did a exterior list for printed and manuscript type using the rendition element
+        because it was something in common in all my documents.-->
         &List_Type;
     </teiHeader>
 
@@ -73,7 +75,7 @@
                     <titlePart type="main" rend="purple_ink white_paper" rendition="#manuscript">The
                         president is Gone</titlePart>
                     <titlePart type="sub" rend="black ink white_paper" rendition="#manuscript">And
-                        other notes from the future</titlePart>
+                        other notes<lb/>from the future</titlePart>
                 </docTitle>
                 <docAuthor rend="black ink white_paper">
                     <persName>Angélica</persName>
@@ -83,122 +85,123 @@
         </front>
 
         <body>
-            <div1 n="2" rendition="#manuscript">
-                <p rend="purple_ink white_paper">The president is gone.</p>
-                <p rend="purple_ink white_paper">And the vice president is gone too.</p>
-                <p rend="purple_ink white_paper">We created a world where</p>
-                <p rend="purple_ink white_paper"> we didn't need these false idols.</p>
+            <div1 n="2" rendition="#manuscript" rend="purple_ink white_paper">
+                <!-- When the rend is the same on all the page,
+                I used it on the element that englobe all my paragraphes.-->
+                <p>The president<lb/>is gone.</p>
+                <p>And the vice<lb/>president is gone<lb/> too.</p>
+                <p>We created a <lb/>world where</p>
+                <p> we didn't need <lb/>these false idols.</p>
             </div1>
-            <div1 n="3" rendition="#manuscript">
-                <p rend="purple_ink white_paper">The priest is gone. The missonaries are all gone
+            <div1 n="3" rendition="#manuscript" rend="purple_ink white_paper">
+                <p>The priest is gone.<lb/> The missonaries are <lb/>all gone too.</p>
+                <p>We didn't need them <lb/>telling us what to do.</p>
+                <p>We decided to some <lb/>thinking for ourselves.</p>
+                <p>So now</p>
+                <p>The police are gone,</p>
+                <p>The sherrifs and <lb/>deputies and hey <lb/>the criminals are <lb/>all gone
                     too.</p>
-                <p rend="purple_ink white_paper">We didn't need them telling us what to do.</p>
-                <p rend="purple_ink white_paper">We decided to some thinking for ourselves.</p>
-                <p rend="purple_ink white_paper">So now</p>
-                <p rend="purple_ink white_paper">The police are gone,</p>
-                <p rend="purple_ink white_paper">The sherrifs and deputies and hey the criminals are
-                    all gone too.</p>
-                <p rend="purple_ink white_paper">Theres no jails and no prisons, no heartless</p>
-                <p rend="purple_ink white_paper">warehouses full of people, living breathing.</p>
-                <p rend="purple_ink white_paper">We didn't want those things anymore. So we</p>
-                <p rend="purple_ink white_paper">Got rid of all our bosses, we all quit our
-                    "jobs"</p>
-                <p rend="purple_ink white_paper">and realized we could actually find our
-                    purpose...</p>
+                <p>Theres no jails and<lb/> no prisons, no heartless</p>
+                <p><lb/>warehouses full of <lb/>people, living breathing.</p>
+                <p><lb/>We didn't want those things <lb/>anymore. So we</p>
+                <p><lb/>Got rid of all our bosses,<lb/> we all quit our "jobs"</p>
+                <p><lb/>and realized we could actually find our purpose...</p>
             </div1>
-            <div1 n="4" rendition="#manuscript">
-                <p rend="purple_ink pink_paper">We got rid of the Landlords ... it</p>
-                <p rend="purple_ink pink_paper">wasn't there land to "lord" anyway ...</p>
-                <p rend="purple_ink pink_paper">and we got rid of renters too.</p>
-                <p rend="purple_ink pink_paper">Now were all just livers... livers ?</p>
-                <p rend="purple_ink pink_paper">Haha ... I mean were all people who get to be
-                    alive,</p>
-                <p rend="purple_ink pink_paper">People who get to experience our world</p>
-                <p rend="purple_ink pink_paper">and not just fight to survive it.</p>
+            <div1 n="4" rendition="#manuscript" rend="purple_ink pink_paper">
+                <p><lb/>We got <lb/>rid of the <lb/>Landlords ... it</p>
+                <p><lb/>wasn't there land <lb/>to "lord" anyway ...</p>
+                <p><lb/>and we got rid of <lb/>renters too.</p>
+                <p><lb/>Now were all just <lb/>livers... livers ?</p>
+                <p><lb/>Haha ... I mean were <lb/>all people who get <lb/>to be alive,</p>
+                <p><lb/>People who get <lb/>to experience our <lb/>world</p>
+                <p><lb/>and not just <lb/>fight to survive it.</p>
             </div1>
             <div1 n="5" rendition="#manuscript">
-                <p rend="purple_ink pink_paper">So we got rid of the corporations. That's right.</p>
-                <p rend="purple_ink pink_paper"> Now the CEOs are gone and the shareholders and
-                    investors and even the consumers are gone too.</p>
-                <p rend="purple_ink white_paper">We got rid of them when</p>
-                <p rend="purple_ink white_paper">They were treating the rest of the world like a
-                    game ...</p>
-                <p rend="purple_ink white_paper">They played by unfair rules...</p>
-                <p rend="purple_ink white_paper">So we burned the Rulebook</p>
-                <p rend="purple_ink white_paper">And the game board, all the cards and the dice,</p>
-                <p rend="purple_ink white_paper">and we got rid of the markets and the money</p>
-                <p rend="purple_ink white_paper">we started valuing people ...animals ...plants ...
-                    the world ...</p>
-                <p rend="purple_ink white_paper">For what they are :</p>
-                <p rend="purple_ink white_paper">Gifts ... Blessigngs ... not from any of us ... to
-                    all of us ...</p>
-                <p rend="purple_ink white_paper">Gifts.</p>
+                <!-- Here the color change on the same page, so I used my rend attribute on every paragraphe-->
+                <p rend="purple_ink pink_paper"><lb/>So we got rid of <lb/>the corporations.
+                    <lb/>That's right.</p>
+                <p rend="purple_ink pink_paper"><lb/>Now <lb/>the CEOs are gone <lb/>and the
+                    shareholders <lb/>and investors and <lb/>even the consumers are gone too.</p>
+                <p rend="purple_ink white_paper"><lb/>We got rid <lb/>of them when</p>
+                <p rend="purple_ink white_paper"><lb/>They were <lb/>treating the <lb/>rest of the
+                    <lb/>world like a <lb/>game ...</p>
+                <p rend="purple_ink white_paper"><lb/>They <lb/>played by unfair <lb/>rules...</p>
+                <p rend="purple_ink white_paper"><lb/>So we burned <lb/>the rule book</p>
+                <p rend="purple_ink white_paper"><lb/>And the game board, <lb/>all the cards and
+                    <lb/>the dice,</p>
+                <p rend="purple_ink white_paper"><lb/>and we got rid <lb/>of the markets <lb/>and
+                    the money and</p>
+                <p rend="purple_ink white_paper"><lb/>we started valuing <lb/>people ...animals
+                    ...plants ... <lb/>the world ...</p>
+                <p rend="purple_ink white_paper"><lb/>For what they are :</p>
+                <p rend="purple_ink white_paper">Gifts ... Blessigngs ... <lb/>not from any <lb/>of
+                    us ... <lb/>to all of us ...</p>
+                <p rend="purple_ink white_paper"><lb/>Gifts.</p>
             </div1>
-            <div1 n="6" rendition="#manuscript">
-                <p rend="purple_ink white_paper">So we got rid of the food prices and the "cost" of
-                    healthcare and</p>
-                <p rend="purple_ink white_paper">decided to live in abundance. We stopped putting a
-                    price tag on life.</p>
-                <p rend="purple_ink white_paper">So we got rid of the rich. And we got rid of the
-                    poor. We decided that we all could do more...</p>
-                <p rend="purple_ink white_paper">We got rid of the borders and walls... The binary
-                    structures that kept us apart...</p>
-                <p rend="purple_ink white_paper">We realized how fragile they were, how easily they
-                    cdould crumble.</p>
-                <p rend="purple_ink white_paper">They didn't stand a chance against the power we had
+            <div1 n="6" rendition="#manuscript" rend="purple_ink white_paper">
+                <p><lb/>So we got rid <lb/>of the food prices <lb/>and the "cost" of healthcare
+                    and</p>
+                <p><lb/>decided to live in <lb/>abundance. We <lb/>stopped putting a <lb/>price tag
+                    on life.</p>
+                <p><lb/>So we got rid of <lb/>the rich. And we <lb/>got rid of the <lb/>poor. We
+                    decided <lb/>that we all could <lb/>do more...</p>
+                <p>We got rid of <lb/>the borders and <lb/>walls... The binary <lb/>structures that
+                    kept <lb/>us apart...</p>
+                <p>We realized <lb/>how fragile they were, <lb/>how easily they could
+                    <lb/>crumble.</p>
+                <p>They <lb/>didn't <lb/>stand <lb/>a <lb/>chance <lb/>against <lb/>the power we had
                     ...</p>
-                <p rend="purple_ink white_paper">That we still have.</p>
-                <p rend="purple_ink white_paper">The power of love ... creativity ...solidarity</p>
-                <p rend="purple_ink white_paper">We nenver once surrendered.</p>
+                <p><lb/>That we still have.</p>
+                <p><lb/>The power of love ... <lb/>creativity ...solidarity</p>
+                <p><lb/>We never once surrendered.</p>
             </div1>
-            <div1 n="7" rendition="#manuscript">
-                <p rend="purple_ink yellow_paper">So now the hatred is gone. The silence and shame
-                    too.</p>
-                <p rend="purple_ink yellow_paper">We got rid of them; we loved to hard !</p>
-                <p rend="purple_ink yellow_paper">In the best way possible. We embodied our
-                    truths.</p>
-                <p rend="purple_ink yellow_paper">We didn't let lies stop us. So we got rid of the
-                    mass media and legislators are all gone too !</p>
-                <p rend="purple_ink yellow_paper">We got rid of the teachers, there are no more of
-                    them and we got rid of the students too.</p>
-                <p rend="purple_ink yellow_paper">We realized we have lots more fun when we all
-                    become learners, creators, participants in our reality and not mere predefined
-                    roles.</p>
-                <p rend="purple_ink yellow_paper">And we were so successful ! We still are.</p>
+            <div1 n="7" rendition="#manuscript" rend="purple_ink yellow_paper">
+                <p><lb/>So now the hatred <lb/>is gone. <lb/>The silence and <lb/>shame too.</p>
+                <p><lb/>We got rid <lb/>of them; we <lb/>loved to hard !</p>
+                <p><lb/>In the best way <lb/>possible. We <lb/>embodied our truths.</p>
+                <p><lb/>We didn't let lies <lb/>stop us. So we <lb/>got rid of the <lb/>mass media
+                    and <lb/> the legislators are <lb/>all gone too !</p>
+                <p>We got rid <lb/>of the teachers, there <lb/>are no more of them <lb/>and we got
+                    rid of <lb/>the students too.</p>
+                <p>We realized we have <lb/><emph>lots</emph> more fun when <lb/>we all become
+                    <lb/>learners, creators, participants <lb/>in our reality and <lb/>not mere
+                    predefined roles.</p>
+                <p><lb/>And we were so <lb/>successful ! <lb/>We still are.</p>
             </div1>
-            <div1 n="8" rendition="#manuscript">
-                <p rend="purple_ink white_tissue">And now the violence is all gone,</p>
-                <p rend="purple_ink white_tissue">and the tanks and guns are gone too.</p>
-                <p rend="purple_ink white_tissue">The gas is gone, the bombs, the chemicals they
-                    dumped into the earth our home.</p>
-                <p rend="purple_ink white_tissue">They are all gone.</p>
-                <p rend="purple_ink white_tissue">We got rid of them !</p>
-                <p rend="purple_ink white_tissue">Chose life,</p>
-                <p rend="purple_ink white_tissue">Chose love, chose connection instead of fear.</p>
+            <div1 n="8" rendition="#manuscript" rend="purple_ink yellow_paper">
+                <p><lb/>And now the <lb/>violence is all <lb/>gone,</p>
+                <p><lb/>and the <lb/>tanks and guns <lb/>are gone too.</p>
+                <p><lb/>The gas is gone, <lb/>the bombs, the <lb/>chemicals they <lb/>dumped into
+                    the <lb/>earth our home.</p>
+                <p><lb/>They are all gone.</p>
+                <p><lb/><emph>We got rid of them !</emph></p>
+                <p><lb/><emph>Chose life,</emph></p>
+                <p><lb/>Chose love, chose connection <lb/>instead of fear.</p>
             </div1>
-            <div1 n="9" rendition="#manuscript">
-                <p rend="purple_ink, blue surgical mask">We chose each other.And we still do. That's
-                    how we made it so far.</p>
+            <div1 n="9" rendition="#manuscript" rend="purple_ink, blue surgical mask">
+                <p><lb/>We chose <lb/>each other. <lb/>And we still <lb/>do. That's <lb/>how we
+                    <lb/>made it so <lb/>far.</p>
             </div1>
-            <div1 n="10" rendition="#manuscript">
-                <p rend="purple_ink yellow_paper">But we looked beyond ourselves too and we chose
-                    the world, again as it is, gifts, glorious and abundant and we realized we had
-                    so much we were missing.</p>
-                <p rend="purple_ink yellow_paper">So we don't have the scarcity the fear and
-                    coercion any more.</p>
-                <p rend="purple_ink yellow_paper">No more extraction and expansion and exploitation
-                    - that's all gone. We embraced cycles and transitions, trangressions,
-                    transformations,</p>
-                <p rend="purple_ink yellow_paper">We got rid of control and welcomed in community.
-                    And we thrive, and we thrive, and we thrive, and we thrive.</p>
+            <div1 n="10" rendition="#manuscript" rend="purple_ink yellow_paper">
+                <p><lb/>But we looked <lb/>beyond ourselves <lb/>too and we chose <lb/>the world,
+                    again <lb/>as it is, gifts, <lb/>glorious and <lb/>abundant and <lb/>we realized
+                    we had <lb/>so much we were <lb/>missing.</p>
+                <p><lb/>So we <lb/>don't have the <lb/>scarcity the <lb/>fear and coercion <lb/>any
+                    more.</p>
+                <p><lb/>No more <lb/>extraction and <lb/>expansion and <lb/>exploitation <caesura/>
+                    <lb/>that's all gone. <lb/>We embraced <lb/>cycles <lb/>and <lb/>transitions,
+                    <lb/>trangressions, <lb/>transformations,</p>
+                <p>We got rid <lb/>of control <lb/>and welcomed <lb/>in community. <lb/>And we
+                    thrive, <lb/>and we thrive, <lb/>and we thrive, <lb/><emph>and we
+                    thrive.</emph></p>
             </div1>
         </body>
         <back>
             <div1 rendition="#manuscript">
-                <p rend="red pencil, white background">They may burn our books but we will still
-                    write more.</p>
+                <p rend="red pencil, white background"><lb/>They may burn our books <lb/>but we will
+                    <lb/>still <lb/>write <lb/>more.</p>
                 <div2>
-                    <p rend="pink ink, pink and white_paper">share this zine :</p>
+                    <p rend="pink ink, pink and white_paper"><lb/>share this zine :</p>
                     <figure>
                         <figDesc>A QR code leading to a 404 error</figDesc>
                     </figure>

@@ -59,6 +59,38 @@
                         <idno>ark:/13960/s2cgrnk02qs</idno>
                     </msIdentifier>
                 </msDesc>
+                <listPerson>
+                    <!-- I could have done a separate list of authority, 
+                        but it did not make sens because my others documents will not use it. -->
+                    <person xml:id="Miller" sameAs="https://www.wikidata.org/wiki/Q670658">
+                        <persName>
+                            <forename>George</forename>
+                            <addName>Armitage</addName>
+                            <surname>Miller</surname>
+                        </persName>
+                        <birth>1920-02-03</birth>
+                        <death>2012-07-22</death>
+                        <idno>Q670658</idno>
+                    </person>
+                    <person xml:id="Dawkins" sameAs="http://viaf.org/viaf/12307054">
+                        <!-- Wikidata did not have an authority file for Richard Dawkins so I
+                        used the authority file from Viaf.org-->
+                        <persName>
+                            <forename>Richard</forename>
+                            <surname>Dawkins</surname>
+                        </persName>
+                        <birth>1941-03-26</birth>
+                        <idno>12307054</idno>
+                    </person>
+                    <person xml:id="Rizzolatti" sameAs="https://www.wikidata.org/wiki/Q562048">
+                        <persName>
+                            <forename>Giacomo</forename>
+                            <surname>Rizzolatti</surname>
+                        </persName>
+                        <birth>1937-04-28</birth>
+                        <idno>Q562048</idno>
+                    </person>
+                </listPerson>
             </sourceDesc>
         </fileDesc>
         &List_Type;
@@ -97,26 +129,32 @@
                 <list>
                     <item>
                         <emph>What is a zine ?</emph>
-                        <p>A zine is a booklet made by a transgender anarchist who doesn't have any
-                            other options. The Zine is a format that's good at containing
-                            information. A zine is a unit, a thing, a piece of information. A zine
-                            is, specifically, a <emph>chunk</emph> of information. It is made of + 7
-                            smaller chunks of information.</p>
-                        <p>A page folded thrice makes for eight portions; six smaller pages and
-                            cover : this is the classic format.</p>
+                        <p>A zine is a booklet <lb/>made by a transgender <lb/>anarchist who doesn't
+                            have <lb/>any other options. <lb/>The Zine is a format <lb/>that's good
+                            at containing <lb/>information. <lb/>A zine is a unit, a thing, <lb/>a
+                            piece of information. <lb/>A zine is, specifically, <lb/>a
+                                <emph>chunk</emph> of information. <lb/>It is made of + 7 smaller
+                            <lb/>chunks of information.</p>
+                        <p>A page folded thrice makes <lb/>for eight portions; six <lb/>smaller
+                            pages and cover : <lb/>this is the classic format.</p>
                     </item>
                 </list>
             </div1>
             <div1 n="2" rendition="#printed">
                 <list>
                     <item><emph>WHen Doesn't it Work ?</emph>
-                        <p>My last issue was a moment's musing about pet play. People liked it! My
-                            previous was about a much more interesting topic I've been researching
-                            for a long time, and nobody cared. *<anchor xml:id="footnote1"/></p>
-                        <p>Why did one work, and the other didn't ? I think it was the format. I
-                            broke the format with the flop : it was a double issue. Double was too
-                            much ! Even I got bored in the middle. I should have listened to Miller
-                            and his famous laws.</p>
+                        <p>My last issue was a moment's <lb/>musing about pet play. <lb/>People
+                            liked it! My previous <lb/>was about a much more <lb/>interesting topic
+                            I've been <lb/>researching for a long time, <lb/>and nobody cared.
+                                *<anchor xml:id="footnote1"/></p>
+                        <!-- I used xml:id to create a locator for the footnote, I don't remember why
+                        I did that and how I found that.-->
+                        <p>Why did one work, and the <lb/>other didn't ? I think it was <lb/>the
+                            format. <lb/>I broke the format with the <lb/>flop : it was a double
+                            issue. <lb/>Double was too much ! Even I <lb/>got bored in the middle.
+                            <lb/>I should have listened to
+                                <lb/><persName><surname>Miller</surname></persName> and his famous
+                            laws.</p>
                     </item>
                 </list>
                 <trailer> * <ptr target="#footnote1"/>
@@ -129,15 +167,15 @@
                 <list>
                     <item>
                         <emph>The Law of Exactly Sevenish</emph>
-                        <p>Seven has been a number of magical and cosmic signifiance for all of
-                            human history. Especially 1956. That's when
-                                    <persName><forename>George</forename>
-                                <surname>Miller</surname></persName> wrote <emph><objectName>The
-                                    Magical Number 7, +2</objectName></emph>. The paper exemplains
-                            why you can remmber a telephone number but not a credit card number.</p>
-                        <p>I think <persName><surname>Miller</surname></persName>'s Law is about
-                            more than just human short<caesura/>term memory. What if it applies not
-                            to just our brains, but information itself ? What if it's part of a
+                        <p>Seven has been a number of <lb/>magical and cosmic signifiance <lb/>for
+                            all of human history. <lb/>Especially 1956. That's when <lb/><persName
+                                ref="#Miller">George Miller</persName> wrote
+                                    <lb/><emph><objectName>The Magical Number 7,
+                                +2</objectName></emph>. <lb/>The paper exemplains why you can
+                            <lb/>remember a telephone number <lb/>but not a credit card number.</p>
+                        <p>I think <persName ref="#Miller">Miller</persName>'s Law is about more
+                            than just human short<caesura/>term memory. What if it applies not to
+                            just our brains, but information itself ? What if it's part of a
                                 <emph>general information theory</emph> that we don't have yet
                             ?Regardless, it applies to zines.</p>
                     </item>
@@ -147,13 +185,13 @@
                 <list>
                     <item><emph>The Theory of Memes</emph>
                         <p>Before it was rare Soyjaks, <emph>the meme was a serious theory by
-                                        <persName><surname>Dawkins</surname></persName> '76. He
-                                named memetics following genetics, including select<caesura/>tion.
-                                But his evolutionary metaphor didn't even apply to evolution. Don't
-                                get me wrong, I like his theory (and evolution.) But
-                                        <persName><surname>Dawkins</surname></persName> called a
-                                meme a unit of culture. Sounds squishy, doesn't it ? Let's call it
-                                instead <emph>a chunk of information.</emph> Even better, a
+                                    <persName ref="#Dawkins">Dawkins</persName> '76. He named
+                                memetics following genetics, including select<caesura/>tion. But his
+                                evolutionary metaphor didn't even apply to evolution. Don't get me
+                                wrong, I like his theory (and evolution.) But <persName
+                                    ref="#Dawkins">Dawkins</persName> called a meme a unit of
+                                culture. Sounds squishy, doesn't it ? Let's call it instead <emph>a
+                                    chunk of information.</emph> Even better, a
                                     <emph>mirrorable</emph> chunk of information : one that can be
                                 easily repeated. </emph>.</p>
                     </item>
@@ -177,21 +215,20 @@
             <div1 n="6" rendition="#printed">
                 <list>
                     <item><emph>Shrink To Grow</emph>
-                        <p>Notice that you don't have to read
-                                <persName><surname>Miller</surname></persName>
-                            <persName><surname>Dawkins</surname></persName> and ... uh,
-                                    <persName><surname>Rizzolatti</surname></persName> to follow me.
-                            That's because their books compress into my mini-page chunks. The
-                            behavior of the chunkd is what mattered to
-                                    <persName><surname>Miller</surname></persName>, not the number.
-                            They <emph>compress, nest, and scale.</emph></p>
+                        <p>Notice that you don't have to read <persName ref="#Miller"
+                                >Miller</persName>
+                            <persName ref="#Dawkins">Dawkins</persName> and ... uh, <persName
+                                ref="#Rizzolatti">Rizzolatti</persName> to follow me. That's because
+                            their books compress into my mini-page chunks. The behavior of the
+                            chunkd is what mattered to <persName ref="#Miller">Miller</persName>,
+                            not the number. They <emph>compress, nest, and scale.</emph></p>
                         <p>Scaling means that the <emph>riot <choice>
                                     <orig>grrl</orig>
                                     <corr>girl</corr>
                                 </choice></emph> concept can go from zine idea to cultural Thing. If
                             copied and shared, the information you're reading could
                             compress-nest-scale, too. It would no longer be 6 chunks about
-                                        <emph><persName><surname>Miller</surname></persName>,
+                                        <emph><persName ref="#Miller">Miller</persName>,
                                 mirroring, and memetics.</emph> It would become one idea, a Zine
                             Theory, told in one word: <emph>zinetics.</emph></p>
                     </item>
