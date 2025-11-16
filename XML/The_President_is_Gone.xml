@@ -94,12 +94,15 @@
                 <p> we didn't need <lb/>these false idols.</p>
             </div1>
             <div1 n="3" rendition="#manuscript" rend="purple_ink white_paper">
-                <p>The priest is gone.<lb/> The missonaries are <lb/>all gone too.</p>
+                <p>The priest is gone.<lb/> The missionaries are <lb/>all gone too.</p>
                 <p>We didn't need them <lb/>telling us what to do.</p>
-                <p>We decided to some <lb/>thinking for ourselves.</p>
+                <p>We decided to do some <lb/>thinking for ourselves.</p>
                 <p>So now</p>
                 <p>The police are gone,</p>
-                <p>The sherrifs and <lb/>deputies and hey <lb/>the criminals are <lb/>all gone
+                <p>The <choice>
+                        <orig>sherrifs</orig>
+                        <corr>sheriff</corr>
+                    </choice> and <lb/>deputies and hey <lb/>the criminals are <lb/>all gone
                     too.</p>
                 <p>Theres no jails and<lb/> no prisons, no heartless</p>
                 <p><lb/>warehouses full of <lb/>people, living breathing.</p>
