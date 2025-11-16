@@ -91,7 +91,7 @@
                 <list>
                     <!-- Item are an automatic line reset so I didn't use <lb/> at the beginning of an item -->
                     <item>Believe what your friend is telling you.</item>
-                    <item>Dont pressure or force them to do anything. They need to feel they are in
+                    <item>Dont pressure or force them to do <lb/>anything. They need to feel they are <lb/>in
                         charge of decisions.</item>
                     <item>Tell your friend that the rape is <emph>NOT</emph>
                         <lb/>their fault. Do not blame your friend <lb/>for what happened.</item>
