@@ -3,7 +3,6 @@ Ladyfinger
 #90
 [A printed version of a plan of a Vauban fortress with the letter Z and the number 7 inscribed inside.]
 Morgan Stern
-Table of contents
 
     1. Why zines work
 
@@ -105,11 +104,9 @@ THE FILLING (that fucks)
     A zine does not sell cheeseburgers.
     A zine is small, below and against.
 
-Appendix A
-
 morganstern.33 on Signal
 
 ladyfingerpress.tumbler.com
-Home 
-Ladyfinger and Morgan Stern . Date: TEI assignment 2
+
+Ladyfinger and Morgan Stern
 

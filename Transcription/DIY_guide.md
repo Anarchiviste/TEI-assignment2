@@ -3,7 +3,6 @@ preventing sexual
 assault
 [A black and white printed picture with a groupe of 6 young peoples]
 Free. Copy and distribute at will!
-Table of contents
 
     2. Help a survivor
     3. What to do if... you or a friend are sexually assaulted
@@ -197,6 +196,4 @@ into sexual activity or engaging in a
 sexual act with someone who is high,
 drunk, passed out,or unable to give
 consent is rape.
-Home 
-anonymous. Date: TEI assignment 2
 

@@ -3,7 +3,6 @@ And other notes
 from the future
 Angélica
 2023
-Table of contents
 
 1.
 
@@ -293,6 +292,4 @@ Appendix A.2
 [Instagram logo]
 
 @h34rtcore
-Home 
-Angélica. Date: TEI assignment 2
 
