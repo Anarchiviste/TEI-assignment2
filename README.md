@@ -14,6 +14,8 @@ The two others fanzine come from a collection named Sprout Distro on Internet Ar
 
 - [ Why Zines Work: A DIY Information Theory ][https://archive.org/details/z_lxxxx/page/n7/mode/2up] by Morgan Stern / Ladyfingerpess
 
+- As always, I did not use generative IA for any of my work.
+
 ## My DTD vs TEI
 
 My previous DTD was already inspired by TEI guidelines with the use of a header, followed by a front cover unit, and page divisor unit and a back cover unit. I did not think about bringing the ark reference identifying number into my DTD, even if the Internet Archive create this id for everything stored in their collections. TEI do a better job than me to seperate a lot of authority statement (author, editor, distributor, resources identifier) but it can be a very repetitive and verbose. I thought of using and external list for <editionStmt> and avoid repetition, but I think that it was to important to be put appart in case documents get separated. It was harder to know where each information bit should be written, for example I choosed to use the attribute ref to encode the link to the github.
