@@ -41,7 +41,7 @@ TEI element I used a lot :
 
   - In my DTD I was planning to encode informations about collectives of authors or syndicates, but it was not useful for my documents.
 
-  - In TEI, the availability statement is made to be used my big institution with a clear method off classification. I picked easily available zines, but I do not know how to encode the lack of available.
+  - In TEI, the availability statement is made to be used my big institution with a clear method off classification. I picked easily available zines, but I do not know how to encode the lack of availabillity (for example, a zine is not curated, in my personnal gallery on my phone)
 
 
 
