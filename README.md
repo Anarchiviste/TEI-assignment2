@@ -16,7 +16,7 @@ The two others fanzine come from a collection named Sprout Distro on Internet Ar
 
 ## Statement on IA
 
-- As always, I did not use generative IA for any of my work.
+As always, I did not use generative IA for any of my work.
 
 ## Reflexion on DTD and TEI
 
@@ -32,15 +32,7 @@ TEI is great for persName and authority list incorporation. I did not use an ext
 
 - In Why Zine Work, I did a person list, but not an exterior one because it was used only in this file.
 
-- I used external authority id like Wikidata and Viaf for my person list.
-
-- choice to correct errors when I found one
-
-- I found it was hard to know where to put every bit of information, especially hyperlink to link an author account to their socials medias. I used attributes like source / ref or target, juggling with what I need and what the TEI guidelines give me.
-
-- In my DTD I was planning to encode informations about collectives of authors or syndicates, but it was not useful for my documents.
-
-- In TEI, the availability statement is made to be used my big institution with a clear method off classification. I picked easily available zines, but I do not know how to encode the lack of availabillity (for example, a zine is not curated, in my personnal gallery on my phone)
+I used external authority id like Wikidata and Viaf for my person list. choice to correct errors when I found one. I found it was hard to know where to put every bit of information, especially hyperlink to link an author account to their socials medias. I used attributes like source / ref or target, juggling with what I need and what the TEI guidelines give me. In my DTD I was planning to encode informations about collectives of authors or syndicates, but it was not useful for my documents. In TEI, the availability statement is made to be used my big institution with a clear method off classification. I picked easily available zines, but I do not know how to encode the lack of availabillity (for example, a zine is not curated, in my personnal gallery on my phone)
 
 
 
