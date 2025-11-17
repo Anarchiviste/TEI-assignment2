@@ -30,7 +30,7 @@ TEI is great for persName and authority list incorporation. I did not use an ext
 
 - I used external authority id like Wikidata and Viaf for my person list.
 
-- TEI element I used a lot :
+TEI element I used a lot :
 
   - choice to correct errors when I found one
 
