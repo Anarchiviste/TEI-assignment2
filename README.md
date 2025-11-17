@@ -1,7 +1,5 @@
 # Introduction 
 
-Introduction
-
 For this assignment, I kept the same documents as those mentioned in my first submission:
 
 Here is the link to my previous assignment: https://github.com/Anarchiviste/evalXML.git
